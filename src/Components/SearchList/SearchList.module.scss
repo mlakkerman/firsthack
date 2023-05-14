@@ -1,0 +1,35 @@
+.searchcontainer {
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #ffffff;
+
+    .search {
+        background-color: #EDEEFF;
+        width: 600px;
+        border-radius: 15px;
+        height: 49px;
+        padding-left: 10px;
+        border: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .searchresult {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        background-color: #ffffff;
+        width: 600px;
+        background-color: white;
+        border: 1px solid black;
+        z-index: 1;
+        max-height: 30px;
+    }
+}

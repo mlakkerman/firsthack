@@ -1,3 +1,28 @@
-.wrapper{
-    background-color: #3f5ac5;
+.wrapper {
+    background-color: #f7f4f4;
+    .infowrapper {
+        display: flex;
+        flex-direction: row;
+        padding: 65px;
+        gap: 50px;
+        height: 100%;
+
+        .img {
+            width: 250px;
+            height: 250px;
+        }
+
+        .textwrapper {
+            font-size: 16px;
+            font-weight: 300;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .title {
+                font-size: 18px;
+                font-weight: 600;
+            }
+        }
+    }
 }

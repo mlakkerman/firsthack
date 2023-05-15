@@ -9,12 +9,15 @@ const AwardsCard = (props) => {
 
     return (
         <div className={s.wrapper}>
-            <div>
-                <img src={award.imgAward} alt={award.nameAward} />
-                <div className={s.title}>{award.nameAward}</div>
-                <div className={s.description}>Award {award.id}</div>
+            <div className={s.infowrapper}>
+                <img className={s.img} src={award.imgAward} alt={award.nameAward} />
+                <div className={s.textwrapper}>
+                    <div className={s.title}>{award.nameAward}</div>
+                    <div className={s.descriptionone}> {award.description}</div>
+                    <div className={s.descriptiontwo}> {award.conrec}</div>
+                </div>
             </div>
-        </div>
+        </div >
     );
 }
 
